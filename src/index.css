@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active {
+  color: #b91c1c;
+  font-weight: bold;
+}
+
+.grad {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    180deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(225, 14, 14, 1) 78%
+  );
+}
+
+/* .slick-dots li::before {
+  background-color: red !important;
+  padding: 100px !important;
+} */
